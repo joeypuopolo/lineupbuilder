@@ -1,0 +1,31 @@
+html {
+    background-color: #333;
+    font-family: helvetica, arial, sans-serif;
+}
+body {
+    margin: auto;
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+.main {
+		/*position: relative;*/
+    margin: 10% 5% 5% 5%;
+    width: 90%;
+    height: 75%;
+    background-color: #20991F;
+}
+.player {
+		/*position: absolute;*/
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: red;
+    border: 0.2em white solid;
+}
+span.position {
+    display: block;
+    line-height: 2em;
+    text-align: center;
+}
